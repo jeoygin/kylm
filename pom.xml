@@ -3,16 +3,31 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>kylm</groupId>
     <artifactId>kylm</artifactId>
     <version>0.0.7</version>
-
+    <packaging>jar</packaging>
+    <name>The Kyoto Language Modeling Toolkit</name>
+    <description>A language modeling toolkit written in Java.</description>
+    <url>http://www.phontron.com/kylm/</url>
+    <licenses>
+        <license>
+            <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Graham Neubig</name>
+        </developer>
+        <developer>
+            <name>Xuchen Yao</name>
+        </developer>
+    </developers>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
     <build>
         <plugins>
             <plugin>
