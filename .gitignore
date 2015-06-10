@@ -1,0 +1,20 @@
+target/
+bin/
+build/
+dist/
+.metadata
+.checkstyle
+*.log
+*.bak
+*.swp
+*~
+*#
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Intellij
+*.iml
+.idea
